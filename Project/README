@@ -1,1 +1,3 @@
-Check
+This project presents numerical methods for studying flows in concentric pipes with circular cross-sectional geometries. The focus is on the use of the finite volume method (FVM) to model and analyze fluid flow phenomena in these pipes, which can be approximated by the Navier-Stokes equation .
+
+The FVM is used to solve the above equation in a discretized form. Then, we implement a TDMA for a radial mesh by invoking proper boundary conditions, such as no-slip and stationary walls. We also implement unsteady diffusion algorithms to compute changes at every time step. The findings of this study can contribute to the design and optimization of fluid transport systems in various industrial applications.a
